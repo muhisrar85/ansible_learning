@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+ansible = "==2.9.2"
+ncclient = {git = "https://git.proteuscd.corp.telstra.com/scm/wnea/ncclient.git"}
+jxmlease = "*"
+jmespath = "*"
+ansible-lint = "*"
+yamllint = "*"
+pipfile = "*"
+
+[requires]
+python_version = "3.6"
